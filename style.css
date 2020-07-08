@@ -1,0 +1,22 @@
+.Distric{
+    border:3px solid cyan;
+    border-radius: 10px;
+    float:left;
+    width:270px;
+    margin:10px;
+    padding:10px;
+     text-align: center;
+     background-color: steelblue;
+     color: white;
+}
+.Distric p{
+    text-align:justify;
+    font-size: 17px;
+}
+.Distric h3{
+    font-size: 25px;
+    color:salmon;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
