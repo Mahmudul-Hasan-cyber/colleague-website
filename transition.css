@@ -1,0 +1,135 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    width:1170px;
+    margin:auto;
+}
+.sectionTitle {
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-bottom:40px;
+}
+
+.sectionTitle h2 {
+    font-size: 40px;
+    font-weight: 900;
+    border-right: 5px solid tomato;
+    border-left: 5px solid tomato;
+    display: inline;
+    padding: 0px 10px;
+}
+
+.service_boxes{
+    overflow:hidden;
+}
+
+.aboutComRight {
+    width: 550px;
+    float: right;
+}
+
+
+section#services div.box_single {
+    width: 260px;
+    text-align: center;
+    float: left;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-right: 25px
+}
+
+section#services div.box_single .box-icon {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    border: 15px solid white;
+    border-radius: 100%;
+    width: 70px;
+    height: 79px;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    transition: 1s;
+}
+
+section#services div.box_single .box-icon i{
+    transition: 0.5s;
+}
+
+section#services div.box_single .box-desc {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+
+#services div.box_single .box-readmore {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#services div.box_single .box-readmore h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color:black;
+    font-family:arial;
+}
+
+#services .box_single_inner {
+    padding: 15px;
+    background: orange;
+    color: white;
+    box-shadow: 0px 7px 9px -3px darkgray;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.borderLeftHover {
+    width: 5px;
+    height: 150px;
+    background: black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 1s;
+
+}
+
+.borderRightHover {
+    width: 5px;
+    height: 150px;
+    background: black;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 1s;
+}
+
+#services .box_single_inner:hover .borderLeftHover{
+    transform: scaleY(1);
+}
+#services .box_single_inner:hover .borderRightHover{
+    transform: scaleY(1);
+}
+
+#services .box_single_inner:hover .box-icon{
+    border-color:black;
+}
+
+#services .box_single_inner:hover .box-icon i{
+    transform: scale(0.6);
+}
+#services .box_single_inner:hover{
+    transform: translateY(20px);
+}
+
